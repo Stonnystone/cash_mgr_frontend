@@ -19,7 +19,7 @@ export function MonoLoginButton() {
   return (
     <div>
       <button  className="btn btn-success  mr-3" onClick={() => monoConnect.open()}>
-        Login to Mono
+        Connect to Mono
       </button>
     </div>
   )
